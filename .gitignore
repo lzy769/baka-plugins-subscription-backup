@@ -44,7 +44,13 @@ node_modules/
 # Local probe / temp scripts
 tools/
 
-# Markdown (except README)
+# Markdown (except README / backup note)
 *.md
 !README.md
 !readme.md
+!BACKUP-NOTE.md
+
+# Temp / backup
+*.tmp
+*.bak
+*.backup-*
